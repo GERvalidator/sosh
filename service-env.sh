@@ -123,7 +123,7 @@ testnet)
   TIP_DISTRIBUTION_PROGRAM_PUBKEY=FhKaSCWdhK86Mbccwtz7xvfqQpjbrmWgsHExrXbmAzVW
   MERKLE_ROOT_UPLOAD_AUTHORITY=GZctHpWXmsZC1YHACTGGcHhYxjdRqQvTpYkb9LMvxDib
 
-  : ${COMMISSION_BPS:=800}
+  : ${COMMISSION_BPS:=10000}
   # `~/sosh-config.sh` may override the default Jito config if desired
   # See https://jito-labs.gitbook.io/mev/systems/connecting/testnet
   if [[ -z $BLOCK_ENGINE_URL ]]; then
