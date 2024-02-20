@@ -73,10 +73,10 @@ ssh-keygen -t ed25519 && cat .ssh/id_ed25519.pub
 ### Solana Git Setup
 ```
 for ch in edge beta stable; do \
-  git clone https://github.com/solana-labs/solana.git ~/$ch; \
+  git clone https://github.com/jito-foundation/jito-solana.git ~/$ch; \
 done; \
-(cd ~/beta; git checkout v1.14); \
-(cd ~/stable; git checkout v1.13); \
+(cd ~/beta; git checkout v1.18.1-jito); \
+(cd ~/stable; git checkout v1.17.22-jito); \
 ln -sf beta ~/solana
 ```
 
